@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 
 
-VERSION = '0.0.29'
+VERSION = '0.1.0'
 PACKAGE_NAME = 'montyhall'
 AUTHOR = 'Jose Viegas'
 AUTHOR_EMAIL = 'jviegas6@gmail.com'
