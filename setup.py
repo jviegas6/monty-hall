@@ -2,8 +2,8 @@ from setuptools import find_packages, setup
 import os
 
 
-VERSION = '0.0.1'
-PACKAGE_NAME = 'montyHall'
+VERSION = '0.0.8'
+PACKAGE_NAME = 'montyhall'
 AUTHOR = 'Jose Viegas'
 AUTHOR_EMAIL = 'jviegas6@gmail.com'
 URL = 'https://github.com/jviegas6/montyHall'
@@ -15,8 +15,7 @@ with open('README.md', 'r') as fi:
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'random'
-      , 'pandas'
+      'pandas'
 ]
 
 setup(name=PACKAGE_NAME,
