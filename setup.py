@@ -2,20 +2,20 @@ from setuptools import find_packages, setup
 import os
 
 
-VERSION = '0.0.8'
+VERSION = '0.0.29'
 PACKAGE_NAME = 'montyhall'
 AUTHOR = 'Jose Viegas'
 AUTHOR_EMAIL = 'jviegas6@gmail.com'
 URL = 'https://github.com/jviegas6/montyHall'
 
 LICENSE = 'Apache License 2.0'
-DESCRIPTION = 'Describe your package in one sentence'
+DESCRIPTION = 'This is a package to run the Monty Hall experiment'
 with open('README.md', 'r') as fi:
     LONG_DESCRIPTION = fi.read()
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'pandas'
+      'pandas>=1.0.0'
 ]
 
 setup(name=PACKAGE_NAME,
@@ -29,5 +29,6 @@ setup(name=PACKAGE_NAME,
       url=URL,
       install_requires=INSTALL_REQUIRES,
       packages=find_packages(),
+      include_package_data=True,
       python_requires='>=3.6'
       )
